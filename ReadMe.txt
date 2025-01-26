@@ -5,6 +5,10 @@ MS SQL Server 2017:
 https://download.microsoft.com/download/E/F/2/EF23C21D-7860-4F05-88CE-39AA114B014B/SQLEXPRADV_x64_ENU.exe
 
 TODO:
+https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16
+https://learn.microsoft.com/en-us/sql/t-sql/data-types/int-bigint-smallint-and-tinyint-transact-sql?view=sql-server-ver16
+
+DONE:
 0. Выучить теорию;
 1. Скачать и установить Visual Paradigm:
 	https://www.visual-paradigm.com/download/community.jsp
