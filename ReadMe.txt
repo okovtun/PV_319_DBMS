@@ -7,8 +7,10 @@ https://download.microsoft.com/download/E/F/2/EF23C21D-7860-4F05-88CE-39AA114B01
 Git in SSMS:https://github.com/leslyb/git-sql?tab=readme-ov-file
 
 TODO:
-1. Добавить в расписание для своей группы UML, C#, Windows Development, MS SQL Server и ADO.NET;
-2. Написать запрос, который сможет чередовать две дисциплины по схеме 12-21;
+1. Добавить в расписание для своей группы UML, C#, Windows Development, MS SQL Server и ADO.NET;	DONE
+2. Написать процедуру, который сможет чередовать две дисциплины по схеме 12-21;
+3. Написать процедуру, которая выводит расписание для группы на заданный период;
+4. Вычислить зарплату преподавателя на заданный период;
 
 TODO:
 0. Сделать BackUp Базы;
