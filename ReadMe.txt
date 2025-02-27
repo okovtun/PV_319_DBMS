@@ -6,7 +6,17 @@ https://download.microsoft.com/download/E/F/2/EF23C21D-7860-4F05-88CE-39AA114B01
 
 Git in SSMS:https://github.com/leslyb/git-sql?tab=readme-ov-file
 
+Functions vs Stored procedures:
+https://stackoverflow.com/questions/1179758/function-vs-stored-procedure-in-sql-server
+
 TODO:
+1. Написать процедуру 'sp_AddNewYearHolidaysFor';
+2. Написать процедуру 'sp_AddMayHolidaysFor';
+3. Написать процедуру 'sp_AddSummerHolidaysFor';
+4. Написать процедуру 'sp_AddEasterFor';	--Добавляет Пасху.
+5. Написать процедуру 'sp_AddHolidaysFor', которая добавляет все праздники на заданный год;
+
+IN PROGRESS:
 1. При выставлении расписания предусмотреть каникулы и праздники ;-)
 2. Написать процедуру, которая сможет просматривать расписание за указанный месяц, 
    определять какие преподаватели сколько занятий превели в этом месяце,
