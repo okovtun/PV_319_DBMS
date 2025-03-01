@@ -10,6 +10,12 @@ Functions vs Stored procedures:
 https://stackoverflow.com/questions/1179758/function-vs-stored-procedure-in-sql-server
 
 TODO:
+1. Добить процедуру	  'sp_AddHolidays',		которая добавляет выбранные каникулы в таблицу 'DaysOFF';
+2. Написать процедуру 'sp_AddHolidaysFor',	которая добавляет все праздники и каникулы в таблицу 'DaysOff', на заданный год;
+3. Написать функцию GetEasterDate(), которая возвращает дату Пасхи в заданном году;
+4. Выставить расписание с учетом праздников каникул;
+
+TODO:
 1. Написать процедуру 'sp_AddNewYearHolidaysFor';
 2. Написать процедуру 'sp_AddMayHolidaysFor';
 3. Написать процедуру 'sp_AddSummerHolidaysFor';
