@@ -5,7 +5,7 @@ GO
 
 --SELECT * FROM DaysOFF;
 
-EXEC sp_AddHolidays 2025, N'День%'
+EXEC sp_AddAllHolidaysFor 2025;
 
 SELECT
 		[Дата]		=	[date],
