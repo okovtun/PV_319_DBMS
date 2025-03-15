@@ -17,3 +17,15 @@ PRINT(dbo.GetEasterDate(2004));
 PRINT(dbo.GetLastDateForGroup(N'PV_319'));
 --DECLARE @date AS DATE = (SELECT MAX([date]) FROM Schedule WHERE [group]=dbo.GetGroupID(N'PV_319'));
 --PRINT(@date);
+PRINT (dbo.GetMaxLearningDayFor(N'PV_319'));
+--EXEC sp_GetMaxLearningDayFor N'PV_319';
+
+DECLARE @group	AS NVARCHAR(10)	=	N'PV_319';
+DECLARE	@date	AS DATE			=	dbo.GetMaxLearningDateFor(@group);
+WHILE @date < '2025-01-01'
+BEGIN
+	PRINT (@date);
+	PRINT (DATENAME(WEEKDAY, @date));
+	PRINT ('-----------------------------');
+	SET		@date = dbo.GetNextLearningDateFor(@group);
+END
